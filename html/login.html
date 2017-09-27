@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>贸易行</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<style>
+			html,
+			* {
+				-webkit-user-select: text!important;
+				-moz-user-select: text!important;
+			}
+		</style>
+		<link rel="stylesheet" href="../css/login.css">
+
+	</head>
+
+	<body>
+
+		<div class="mui-scroll-wrapper" data-scroll="4">
+			<div class="mui-scroll" style="transform: translate3d(0px, 0px, 0px) translateZ(0px); transition-duration: 0ms; transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);">
+				<div id="MainContainer" class="flex-wrap flex-vertical" style="height: 637px;">
+					<img class="logo" src="../img/login3.png">
+
+					<!--<div class="mui-input-group">-->
+					<div class="mui-input-row">
+						<input id="UserName" type="text" class="mui-input-clear" name="username" placeholder="请输入账号" autocomplete="off" style="color: #000000;" data-input-clear="1"><span class="mui-icon mui-icon-clear mui-hidden"></span>
+					</div>
+					<div class="mui-input-row">
+						<input id="PassWord" type="password" class="mui-input-password" name="password" placeholder="请输入密码" style="color: #000;" data-input-clear="2"><span class="mui-icon mui-icon-clear mui-hidden"></span>
+					</div>
+					<!--</div>-->
+
+					<div class="mui-input-row mui-checkbox">
+						<input id="login-check-input" type="checkbox" checked="">
+						<label>记住账号和密码</label>
+						<!-- 2017-03-16 星期四 -->
+						<a href="loginPass.html" style="float: right; font-size: 0.9em; color: #CE261D;">忘记密码</a>
+					</div>
+
+					<button id="button" class="subimt-button">
+                登　录
+            </button>
+
+					<div class="flex-con">
+						<!--<a href="/index.php/Home/User/findbackPassword">
+                <button id="findback" class="subimt-button">
+                    找回密码
+                </button> </a>
+                -->
+
+						<a href="/home/Login/register.html">
+							<button id="regist" class="subimt-button">
+                        我要开户
+                    </button> </a>
+					</div>
+				</div>
+			</div>
+			<div class="mui-scrollbar mui-scrollbar-vertical" style="transition-duration: 500ms; opacity: 0;">
+				<div class="mui-scrollbar-indicator" style="transition-duration: 0ms; display: block; height: 343px; transform: translate3d(0px, 0px, 0px) translateZ(0px); transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);"></div>
+			</div>
+		</div>
+
+		
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.ready(function() {
+				mui.init();
+			});
+		</script>
+	</body>
+
+</html>

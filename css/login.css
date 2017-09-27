@@ -1,0 +1,112 @@
+div{
+	display: block;
+}
+body{
+	/*background: url(../img/loginBanner.jpg)center center no-repeat !important;*/
+	background-size:cover;
+	height: 100%;
+	/*overflow: scroll;*/
+	
+}
+.mui.mui-scroll{
+	position: absolute;
+    z-index: 1;
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.mui-content{
+	width: 90%;
+	margin: 0 auto;
+}
+.mui-input-group{
+	margin-top: 60% !important;
+	width: 90%;
+	margin: 0 auto;
+	/*margin: 0 5%;*/
+    /*border-radius: 5px;*/
+    border: 1px solid #3a3a3a;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    border: 0;
+}
+.mui-input-row{
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 5px !important;
+	margin-bottom: 5px;
+	
+}
+.logo {
+	width: 64%;
+    margin: 0 18% !important;
+    margin-top: 10% !important;
+    margin-bottom: 10%;
+}
+#UserName{
+	/*border: 1px solid #fff;*/
+	/*border:1px solid #333;*/
+	margin-top: 10%;
+	/*background-color: rgba(92,129,177,0.3) !important;*/
+}
+.mui-input-row input::-webkit-input-placeholder{
+    color:#666 !important;
+}
+.mui-scroll-wrapper{
+	overflow: inherit !important;
+	overflow-x: none;
+}
+
+.mui-checkbox {
+    margin-bottom: 10px;
+    line-height: 2.0em;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#login-check-input {
+    width: 1em;
+    height: 1em;
+    margin-right: 10px;
+}
+.mui-checkbox input[type=checkbox] {
+    display: inline-block;
+    position: static;
+}
+.mui-checkbox label {
+    display: inline-block;
+    position: static;
+    padding: 0;
+    width: auto;
+    font-size: .9em;
+}
+#button{
+    width: 92%;
+    height: 3.0em;
+    line-height: 3.0em;
+    margin: 0 4%;
+    padding: 0;
+    border-radius: 5px;
+    border: none;
+    color: #333;
+    font-size: 1.2em;
+    font-weight: 800;
+    text-align: center;
+    background: #febd17;
+}
+#regist {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: auto;
+    padding: 5px 20px;
+    /*background-color: #282828;*/
+    color: #333;
+    margin-right: 12px;
+    border-radius: 5px;
+    /*border: 1px solid #febd17;*/
+    font-size: .9em;
+    line-height: 1.9em;
+    font-weight: bolder;
+}
