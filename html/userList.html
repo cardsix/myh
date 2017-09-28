@@ -6,9 +6,128 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/userList.css" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css" />
 	</head>
 
 	<body>
+		<div class="mui-content">
+			<div class="header">
+				<div class="userhead"></div>
+				<div class="userPhone">13245678909</div>
+				<div class="userRestMoney">
+					<span class="num">222</span>
+					<span class="Munit">(元)</span>
+				</div>
+				<div class="userAccount">
+					<div class="billBox">
+						<p class="billValue">3.33</p>
+						<p>持仓金额</p>
+					</div>
+					<div class="billNum">
+						<p class="billCount">1</p>
+						<p>数量</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="checkAccount">
+				<div class="BIN mui-col-sm-4 mui-col-xs-4">
+					<!--<img src="../img/Bin.svg"/>-->
+					<i class="icon iconfont icon-jinbizhuanru"></i>
+					<span style="color: #333;font-size: 14px;">充值</span>
+				</div>
+				<div class="BOUT mui-col-sm-4 mui-col-xs-4">
+					<i class="icon iconfont icon-jinbitixian-copy"></i>
+					<span style="color: #333;font-size: 14px;">提现</span>
+				</div>
+				<div class="BDETAIL mui-col-sm-4 mui-col-xs-4">
+					<i class="icon iconfont icon-zhangdanmingxi"></i>
+					<span style="color: #333;font-size: 14px;">明细</span>
+				</div>
+			</div>
+			<div class="mui-table-view">
+				<ul class="u">
+					<li class="mui-col-sm-4 mui-col-xs-4">
+						<a>
+							<div class="ibox yhk">
+								<i class="icon iconfont icon-yinhangqia"></i>
+							</div>
+							
+							<div class="itemName">银行卡</div>
+						</a>
+
+					</li>
+					<li class="mui-col-sm-4 mui-col-xs-4">
+						<a>
+							<div class="ibox crj">
+								<i class="icon iconfont icon-churujin"></i>
+							</div>
+
+							<div class="itemName">出入金查询</div>
+						</a>
+
+					</li>
+					<li class="mui-col-sm-4 mui-col-xs-4">
+						<a>
+							<div class="ibox lsjl">
+								<i class="icon iconfont icon-lishijilu"></i>
+							</div>
+							<div class="itemName">历史记录</div>
+						</a>
+					</li>
+					<li class="mui-col-sm-4 mui-col-xs-4">
+						<a>
+							<div class="ibox sr">
+								<i class="icon iconfont icon-revenue"></i>
+							</div>
+							<div class="itemName">我的收入</div>
+						</a>
+					</li>
+					<li class="mui-col-sm-4 mui-col-xs-4">
+						<a>
+							<div class="ibox yhq">
+								<i class="icon iconfont icon-youhuiquan"></i>
+							</div>
+							<div class="itemName">优惠券</div>
+						</a>
+					</li>
+					<li class="mui-col-sm-4 mui-col-xs-4">
+						<a>
+							<div class="ibox us">
+								<i class="icon iconfont icon-guanyuwomen"></i>
+							</div>
+							<div class="itemName">关于我们</div>
+						</a>
+					</li>
+					<li class="mui-col-sm-4 mui-col-xs-4">
+						<a>
+							<div class="ibox xgmm">
+								<i class="icon iconfont icon-xiugaimima"></i>
+							</div>
+							<div class="itemName">修改密码</div>
+						</a>
+					</li>
+					<li class="mui-col-sm-4 mui-col-xs-4">
+						<a>
+							<div class="ibox fx">
+								<i class="icon iconfont icon-fenxiang"></i>
+							</div>
+							<div class="itemName">分享</div>
+						</a>
+					</li>
+					<li class="mui-col-sm-4 mui-col-xs-4">
+						<a>
+							<div class="ibox kf">
+								<i class="icon iconfont icon-kefu"></i>
+							</div>
+							<div class="itemName">客服</div>
+						</a>
+					</li>
+					<div style="clear: both;"></div>
+				</ul>
+			</div>
+		</div>
 		<script src="../js/mui.min.js"></script>
 		<script type="text/javascript">
 			mui.init()

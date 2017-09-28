@@ -1,0 +1,139 @@
+.header {
+	width: 100%;
+	height: 200px;
+	background: url(../img/userbanner.jpg)center center no-repeat;
+	background-size: cover;
+	padding-top: 5%;
+}
+
+.mui-content {
+	/*background: lightgrey;*/
+}
+
+.userhead {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background: url(../img/userHimg.svg)center center no-repeat;
+	background-size: cover;
+	background-color: #fff;
+	/*outline: 1px solid #ffe;*/
+}
+
+.userRestMoney {
+	width: 100%;
+	text-align: center;
+}
+
+.userPhone {
+	margin-top: 5px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.num,
+.Munit {
+	color: #EC971F;
+}
+
+.num {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.Munit {
+	font-size: 14px;
+}
+
+.userAccount {
+	width: 100%;
+}
+
+.billBox,
+.billNum {
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+
+.userAccount p {
+	color: rgba(247, 247, 247, 0.81);
+	margin-bottom: 0 !important;
+}
+
+.checkAccount {
+	width: 100%;
+	margin-top: 10px;
+	height: 50px;
+	background: #fff;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.checkAccount>div {
+	float: left;
+	height: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+.u {
+	width: 100%;
+	list-style: none;
+	-webkit-padding-start: 0 !important;
+}
+
+.u li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	padding: 10px;
+}
+
+.itemName {
+	color: #333;
+	font-size: 14px;
+}
+.ibox{
+	margin: 5px auto;
+	/*padding: 10px;*/
+	line-height: 47px;
+	border-radius:50%;
+	height: 50px;
+	width: 50px;
+}
+
+.yhk{
+	border: 2px solid #ef503e;
+	
+}
+.crj{
+	border: 2px solid #007AFF;
+}
+.lsjl{
+	border: 2px solid #FEBD17;
+}
+.sr{
+	border:2px solid #25b350
+}
+.yhq{
+	border:2px solid #EE82EE;
+}
+.us{
+	border:2px solid #00B2EE;
+}
+.xgmm{
+	border:2px solid #388E8E;
+}
+.fx{
+	border: 2px solid #FF3030;
+}
+.kf{
+	border: 2px solid #B23AEE;
+}

@@ -1,0 +1,72 @@
+{
+	"index.html": {
+		"resources": [
+			"css/com.css",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"html/billChi.html",
+			"html/home.html",
+			"html/userList.html"
+		],
+		"refer": [
+			"html/billChi.html",
+			"html/home.html",
+			"html/noticeList.html",
+			"html/userList.html"
+		]
+	},
+	"html/home.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"html/noticeList.html",
+			"html/userList.html",
+			"html/billChi.html"
+		],
+		"refer": [
+			"html/noticeList.html",
+			"html/userList.html",
+			"html/billChi.html"
+		]
+	},
+	"html/noticeList.html": {
+		"resources": [
+			"html/home.html",
+			"html/userList.html",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"html/home.html",
+			"html/userList.html"
+		]
+	},
+	"html/userList.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"html/home.html",
+			"html/noticeList.html",
+			"html/billChi.html",
+			"css/userList.css",
+			"img/userbanner.jpg",
+			"img/userHimg.svg",
+			"img/Bin.svg",
+			"css/iconfont.css"
+		],
+		"refer": [
+			"html/home.html",
+			"html/noticeList.html",
+			"html/billChi.html"
+		]
+	},
+	"html/billChi.html": {
+		"resources": [
+			"html/home.html",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"html/home.html"
+		]
+	}
+}
